@@ -75,9 +75,8 @@ hits@50:  43.86
 python train_in_n_out.py --model_gnn VGAE --dataset pubmed --type_process_emb sub --epochs 20 --lr 0.001  
 python infer_in_n_out.py --model_gnn VGAE --dataset pubmed --type_process_emb sub
 ```  
-```
+
 ece: 2.86  
 auc: 95.47  
 hits@20:  33.41  
 hits@50:  52.61
-```  
