@@ -19,7 +19,9 @@ pip install matplotlib
 ```
 
 # Train and infer IN-N-OUT cora
-```python train_gnn_model.py --dataset cora --model_gnn VGAE```  
+```
+python train_gnn_model.py --dataset cora --model_gnn VGAE
+```  
 ```
 ece: 15.36  
 auc:  89.39  
@@ -27,7 +29,9 @@ hits@20:  48.96
 hits@50:  66.41  
 ```
 
-```python traditional_calibration.py --dataset cora --model_gnn VGAE --type_calibrator hist```  
+```
+python traditional_calibration.py --dataset cora --model_gnn VGAE --type_calibrator hist
+```  
 ```
 ece: 11.31  
 auc:  89.07  
